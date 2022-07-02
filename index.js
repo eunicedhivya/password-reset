@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       process.env.FRONTEND,
-      "https://urlshortener-clone.herokuapp.com",
+      "https://password-reset-ed.herokuapp.com",
       "http://localhost:3000",
     ],
     credentials: true,
